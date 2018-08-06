@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+
+/* Home html */
+
+
+
+.register{
+    display: none;
+}
+
+
+.w3-row {
+    background-image: url("https://crisescobar.files.wordpress.com/2018/07/animal-avian-beak-6795985-e1532670787885.jpg");
+    background-repeat:no-repeat; 
+    margin-left:-15px;
+    margin-right: -15px;  
+}
+
+.title-nav {
+    font-family: 'Grand Hotel', cursive;
+    margin-top:20px;
+    color:white;
+    font-size:70px;
+}
+
+.text-slogan {
+    font-family: 'Oswald', sans-serif;
+    margin-top:-50px;
+    font-size:40px;
+    text-align:left;
+}
+.userName ,  .userPasswordLogin, .buttonLogin, .userLastName , .userEmailLogin, .userEmail, .userPassword, .buttonRegisterForm, .userName,.userLastName, .userPassword, .userPasswordVerification,.buttonRegister {
+    border:0px;
+    border-bottom:black;
+    background-color: none;
+    width:60%;
+    height:35px;
+    border-radius:200px;
+    font-family: 'Oswald', sans-serif; 
+}
+
+.text-1, .text-2 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.buttonRegister{
+        background-color: #A6D729;
+        cursor:pointer;
+        font-family: 'Oswald', sans-serif
+    } 
+
+    .buttonRegisterForm {
+        cursor:pointer;
+        background-color: rgb(43, 42, 42);
+        color:white;
+    }
+
+#col-2 {
+margin-top: 70px ;
+margin-bottom:70px;
+margin-right:0px;
+
+}
+
+#col-2-background {
+    background-color: rgb(259,259,259, 0.79);
+}
+
+#col-1{
+   margin-bottom:270px;
+   margin-top:30px;
+}
+
+.title-form{
+    font-family: 'Grand Hotel', cursive;
+    text-align: center;
+} 
+
+#loggedOut ,  .socialLogin{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.body-index {
+    text-align: center;
+}
+
+
+
+.buttonFacebookLogin, .buttonGoogleLogin {
+    font-family: 'Skranji', cursive;
+    font-size: 20px;
+    display: inline-block;
+    border:none;
+    outline: none;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    color:white;
+    cursor: pointer;
+    text-decoration: none;
+    background-color:#3b5999;
+    border-radius:200px;
+    
+}
+
+.buttonGoogleLogin {
+    background-color:#dd4b39;
+    margin-left: 3%; 
+}
+
+.buttonLogin {
+    background-color:#BBEA2A;
+    cursor:pointer;
+    font-family: 'Oswald', sans-serif 
+} 
+
+.logo {
+    width: 60px;
+    margin-top:-20px;
+}
+#footer {
+    text-align:center;
+}
+
+#mensajeErrorPassword, #mensaje-error, #mensaje-error-login {
+    color:red;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 920px) {
+    #col-1{
+        margin-bottom:20px;
+     }
+}
+
+@media only screen and (max-width: 600px) {
+    .buttonLogin {
+        background-color:rgb(252, 239, 58);
+    } 
+
+.buttonRegister{
+    background-color: rgb(252, 239, 58);
+}
+    .text-slogan {
+      display:none;
+      
+    }
+
+    #col-2 {
+            margin-top: -50px ;
+            margin-bottom:25px;
+            
+            }
+
+    .userName ,  .userPasswordLogin, .buttonLogin, .userLastName , .userEmailLogin, .userEmail, .userPassword, .buttonRegisterForm, .userName,.userLastName, .userPassword, .userPasswordVerification,.buttonRegister {
+            border:0px;
+            width:70%;
+            height:44px;
+                
+            }        
+
+    .title-nav {
+    text-align: center;
+    margin-top:-20px;
+ 
+}       
+#col-2-background {
+    background-color: rgba(251, 255, 0, 0.233);
+}
+
+.title-form{
+    font-family: 'Oswald', cursive;
+    font-size:20px;
+    text-align: center;
+} 
+}
+
+@media only screen and (max-width: 424px) {
+    .title-nav {
+        font-size:350%;
+}
+
+.logo {
+    width: 20%;
+   
+}
+}
+            
