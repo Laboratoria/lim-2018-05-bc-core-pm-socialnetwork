@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <title>IDEAS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+    integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <!-- Estilo para esta pagina -->
+  <link rel="icon" type="image/jpg" href="resources/favicon.jpg" />
+
+  <!-- CDN JQUERY, POPPER PARA BOOTSTRAP (MATERIAL DESIGN) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+    crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">NOTICIAS
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PERFIL</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand">MI Perfil</a>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <div class="dropdown">
+            <button class="btn bmd-btn-icon dropdown-toggle" type="button" id="ex1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="material-icons">more_vert</i>
+            </button>
+            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="ex1">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item disabled" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+            </div>
+          </div>
+      </form>
+    </nav> -->
+  </div>
+
+  <div class="container mt-5">
+    <div id="bd" class="hiden">
+      <textarea class="textarea" name="Publicacòn" id="post" placeholder="¿Qué estás pensando?" cols="100" rows="5"></textarea>
+      <input type="button" value="Publicar" id="btnSave">
+      <div class="form-group col-md-3">
+        <select id="inputPrivacy" class="form-control">
+          <option selected>Publico</option>
+          <option>Privado</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="posts">
+    </div>
+  </div>
+
+
+  <!--  <div style="margin-left: 855px;">
+          navbar del bottom de arriba
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: black;">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: black;">Noticias </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" id="btnlogout" class="nav-link" style="color: black;">Cerrar Sesión</a>
+            </li>
+          </ul>
+        </div>  -->
+
+  <!-- 
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-12" style="padding-top: 20px;">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-6">
+              <center>
+                <img src="img/logo.png" width="350px" height="300px" style="padding-top: 60px;">
+              </center>
+            </div>
+            <div class="col-md-9 p-t-2">
+              <h2 class="h2-responsive">
+                <img id="user-image" height="100px">
+                <span id="user-name"></span>
+                <button type="button" class="btn btn-info-outline waves-effect">Follow</button>
+              </h2>
+              <p id="emailUser"></p>
+
+              <ul class="flex-menu">
+                <li>
+                  <strong>41</strong> posts</li>
+                <li>
+                  <strong>47k</strong> followers</li>
+                <li>
+                  <strong>208</strong> following</li>
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- 
+  <div class="container">
+    <div id="bd" class="hiden">
+      <textarea class="textarea" name="Publicacòn" id="post" placeholder="¿Qué estás pensando?" cols="100" rows="5"></textarea>
+      <input type="button" value="Publicar" id="btnSave">
+      <div class="form-group col-md-3">
+        <select id="inputPrivacy" class="form-control">
+          <option selected>Publico</option>
+          <option>Privado</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  </div> -->
+  <!-- FIREBASE -->
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script src="js/firebase.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+
+</html>
